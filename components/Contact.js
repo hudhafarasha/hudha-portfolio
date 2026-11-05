@@ -33,7 +33,7 @@ export default function Contact() {
     <Section id="contact" heading={<>Let&apos;s <span className="text-accent">talk</span></>}>
       <div className="grid gap-12 md:grid-cols-[1fr_1.4fr]">
         <Reveal className="space-y-5 text-mute">
-          <p>I&apos;m looking for an entry-level QA or AI quality engineering role.</p>
+          <p>I&apos;m  always open to connecting, exploring new opportunities, collaborating on interesting projects, and learning from others in technology. Feel free to reach out!</p>
           <a href={`mailto:${profile.email}`} className="block break-all text-lg font-semibold text-ink hover:text-accent">{profile.email}</a>
           <a href={`tel:${profile.phone.replace(/\s/g, "")}`} className="block hover:text-accent">{profile.phone}</a>
           <p>{profile.location}</p>
