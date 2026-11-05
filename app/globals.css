@@ -1,0 +1,8 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+html{scroll-behavior:smooth;background:#0b0b0b}
+body{@apply bg-bg text-ink font-sans antialiased}
+::selection{background:#e8571a;color:#fff}
+:focus-visible{outline:2px solid #e8571a;outline-offset:3px;border-radius:6px}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}}
